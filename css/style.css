@@ -35,6 +35,20 @@ body{
     width: 100%; 
     left: 0; 
   }
+
+  /* Archivo style.css */
+.img-fluid {
+    max-width: 80%; /* Ajusta el tamaño máximo al 80% del contenedor */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 50%; /* Hace que la imagen sea circular, opcional */
+    transition: transform 0.3s ease-in-out; /* Suaviza la animación */
+  }
+
+  .img-fluid:hover {
+    transform: scale(1.1) rotate(5deg); /* Agranda y rota ligeramente la imagen al pasar el cursor */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+  }
+  
   /* styling contact btn  */
 .c-btn{
     border: none;
